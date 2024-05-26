@@ -1,0 +1,179 @@
+ *{
+            margin: 0;
+            padding: 0;
+        }
+        .left img{
+            height:62px;
+            width: 190px;
+        }
+        li{
+            list-style:none;
+            display:flex;
+            align-items:center;
+        }
+        nav{
+            margin-top:40px;
+            width:96vw;
+            display:flex;
+            justify-content:flex-start;
+            align-items:center;
+            gap:25vw;
+            padding-left:80px;
+            box-sizing:border-box;
+
+        }
+        .right ul{
+            display:flex;
+            gap:30px;
+        }
+        .body{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            gap:30px;
+            margin:70px;
+            font-family:sans-serif;
+        }
+        .body span{
+            font-size:48px;
+            text-align: center;
+        }
+         section span img{
+            margin:0 16px;
+            padding-left:14px;
+        }
+        .details{
+            width: 72vw;
+            font-size: 25px;
+            text-align: center;
+        }
+         .first_button{
+            background-color: #00b6d1;
+            padding:12px 20px;
+            min-height:48px;
+            min-width:256px;
+            text-align: center;
+            border: 0cap;
+            border-radius: 5px;
+            color:#ffffff;
+            font-weight: 800;
+         }
+         .first_button a{
+            color:white;
+            text-decoration: none;
+         }
+         .btn{
+            background-color: #00b6d1;
+            padding:10px 19px;
+            text-align: center;
+            min-height:10px;
+            border: 0cap;
+            border-radius: 5px;
+            color:#ffffff;
+            font-weight: bold;
+            font-size:11px;
+            font-weight:800;
+            cursor:pointer;
+         }
+         .btn a{
+            color:white;
+            text-decoration:none;
+         }
+
+         .item{
+            padding: 12px;
+            background-color: #f0efef;
+            border-radius: 10px;
+            font-family:'Segoe UI';
+            text-align:center;
+            margin:20px 0;
+         }
+         .item_lang{
+            text-align:center;
+            font-weight: 700;
+            padding-bottom:49px;
+            padding-top:8px;
+            font-size: 20px;
+         }
+         .item_lang_e{
+            text-align:center;
+            font-weight: 700;
+            padding-bottom:49px;
+            padding-top:8px;
+            font-size: 20px;
+         }
+         .item_lang_sub{
+            text-align:center;
+            font-weight: 700;
+            padding-bottom:10px;
+            font-size: 20px;
+         }
+         .sub_lang{
+            text-align:center;
+            padding-bottom:31px;
+            font-size: 12px;
+         }
+         .green_button{
+            background-color: #5cb85c;
+            
+         }
+         .second{
+            width:70vw;
+            margin:auto;
+         }
+         .flex{
+            display:flex;
+            align-items:center;
+         }
+         .small{
+            font-size:14px;
+            padding-top:4.7px;
+         }
+         .grid{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap:30px;
+         }
+         .download :nth-child(2){
+            font-size: 21px;
+            padding-bottom:2px;
+         }
+         .download{
+            display:flex;
+            align-items: center;
+            gap:10px;
+            font-family:sans-serif;
+            margin-bottom:50px;
+            color:rgba(0, 0, 0, 0.945);
+         }
+         .download img{
+            margin:0px 12px;
+         }
+         .cookie{
+            background-color:#2d2d2d;
+            color:white;
+            padding-top: 10px;
+            padding-bottom: 8px;
+            padding-left: 12px;
+            padding-right: 12px;
+            box-sizing:border-box;
+            text-transform: uppercase;
+            text-align:center;
+            border-top-left-radius:13px;
+            border-top-right-radius: 13px;
+            position:fixed;
+            bottom:0px;
+            left:10px;
+            font-weight: 600;
+            font-family: 'Open Sans', Arial, 'Trebuchet MS', 'Segoe UI', 'Helvetica', sans-serif;
+            font-size:11px;
+         }
+
+         @media only screen and (max-width:1200px){
+            .grid{
+                display:grid;
+                grid-template-columns: 1fr;
+                gap:30px;
+             }
+         }
